@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="XCRoundProgressBar">  
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="innerRoundColor" format="color" /> 
+        <attr name="textColor" format="color" />  
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer"></attr> 
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="XCAutoNewlineLayout">
+        <attr name="item_h_space" format="dimension"/>
+        <attr name="item_v_space" format="dimension"/>
+    </declare-styleable>
+    
+    <!-- 卫星式菜单 属性 -->
+    <attr name="position">
+        <enum name="left_top" value="0" />
+        <enum name="left_bottom" value="1" />
+        <enum name="right_top" value="2" />
+        <enum name="right_bottom" value="3" />
+    </attr>
+    <attr name="radius" format="dimension" />
+    <declare-styleable name="XCArcMenuView">
+        <attr name="position"></attr>
+        <attr name="radius" />
+    </declare-styleable>
+
+</resources>
